@@ -34,7 +34,7 @@ function App() {
 
 
   // let api = "http://localhost:8000/users";
-  let api = "https://beatwithmusic.herokuapp.com/users";
+  let api = "https://bwm0.herokuapp.com/users";
 
   let getData = async () => {
     setLoader(true);

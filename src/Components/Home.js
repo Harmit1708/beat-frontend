@@ -126,9 +126,12 @@ function Home() {
                     </Button>
                   )}
                 </OverlayTrigger>
-                <a
-                  href="/all-song"
+                <span
+                  onClick={() => {
+                    navigate("/all-song")
+                  }}
                   style={{
+                    cursor: "pointer" ,
                     float: "right",
                     marginRight: "80px",
                     color: "red",
@@ -136,7 +139,7 @@ function Home() {
                   }}
                 >
                   See all
-                </a>
+                </span>
               </div>
               <div className="mt-4 song-grid">
                 <Carousel
@@ -274,9 +277,12 @@ function Home() {
                   )}
                 </OverlayTrigger>
 
-                <a
-                  href="/trending-songs"
+                <span
+                  onClick={() => {
+                    navigate("/trending-songs")
+                  }}
                   style={{
+                    cursor: "pointer",
                     float: "right",
                     marginRight: "80px",
                     color: "red",
@@ -284,7 +290,7 @@ function Home() {
                   }}
                 >
                   See all
-                </a>
+                </span>
               </div>
               <div className="mt-4 song-grid">
                 <Carousel
@@ -421,9 +427,12 @@ function Home() {
                   )}
                 </OverlayTrigger>
 
-                <a
-                  href="/new-songs"
+                <span
+                  onClick={() => {
+                    navigate("/new-songs")
+                  }}
                   style={{
+                    cursor: "pointer" ,
                     float: "right",
                     marginRight: "80px",
                     color: "red",
@@ -431,7 +440,7 @@ function Home() {
                   }}
                 >
                   See all
-                </a>
+                </span>
               </div>
               <div className="mt-4 song-grid">
                 <Carousel
@@ -568,9 +577,12 @@ function Home() {
                   )}
                 </OverlayTrigger>
 
-                <a
-                  href="/old-songs"
+                <span
+                onClick={() => {
+                    navigate("/old-songs")
+                  }}
                   style={{
+                    cursor: "pointer" ,
                     float: "right",
                     marginRight: "80px",
                     color: "red",
@@ -578,7 +590,7 @@ function Home() {
                   }}
                 >
                   See all
-                </a>
+                </span>
               </div>
               <div className="mt-4 song-grid">
                 <Carousel
@@ -714,9 +726,12 @@ function Home() {
                     </Button>
                   )}
                 </OverlayTrigger>
-                <a
-                  href="/album-songs"
+                <span
+                onClick={() => {
+                    navigate("/album-songs")
+                  }}
                   style={{
+                    cursor: "pointer" ,
                     float: "right",
                     marginRight: "80px",
                     color: "red",
@@ -724,7 +739,7 @@ function Home() {
                   }}
                 >
                   See all
-                </a>
+                </span>
               </div>
               <div className="mt-4 song-grid">
                 <Carousel

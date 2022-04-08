@@ -403,7 +403,7 @@ figure.hvr.hover i {
   bottom: -90px !important;
 }
 form {
-  height: 550px;
+  height: auto;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.13);
   position: absolute;
@@ -493,7 +493,7 @@ input {
   bottom: -190px !important;
 }
 .form2 {
-  height: 840px;
+  height: auto;
   width: 400px;
   /* margin-top:-100px; */
   background-color: rgba(255, 255, 255, 0.13);
